@@ -19,7 +19,7 @@ def is_anagram(str1, str2):
 
 
 # Testing
-if name == "main":
+if __name__ == "__main__":
     print("Prime Check:")
     print("7 ->", is_prime(7))
     print("10 ->", is_prime(10))
